@@ -14,6 +14,7 @@ import "react-rangeslider/lib/index.css";
 import "@/styles/globals.css";
 import "@/styles/tevily.css";
 import "@/styles/tevily-responsive.css";
+import "@/styles/hero-contact-one.css";  // yeh naya add karo
 
 const MyApp = ({ Component, pageProps }) => {
   return (

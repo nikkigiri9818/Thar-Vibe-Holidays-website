@@ -2,11 +2,13 @@ import AboutPage from "@/components/AboutPage/AboutPage";
 import BookNow from "@/components/BookNow/BookNow";
 import BrandTwo from "@/components/BrandTwo/BrandTwo";
 import CounterOne from "@/components/CounterOne/CounterOne";
+import FeatureCards from "@/components/FeatureCards/FeatureCards";
 import Layout from "@/components/Layout/Layout";
 import PageHeader from "@/components/PageHeader/PageHeader";
 import TeamOne from "@/components/TeamOne/TeamOne";
 import TestimonialOne from "@/components/TestimonialOne/TestimonialOne";
 import VideoTwo from "@/components/VideoTwo/VideoTwo";
+import WhyChoose from "@/components/WhyChoose/WhyChoose";
 import React from "react";
 
 const About = () => {
@@ -15,11 +17,13 @@ const About = () => {
       <PageHeader title="About" outerPage="Pages" />
       <AboutPage />
       <BookNow />
-      <TestimonialOne aboutPage />
+      {/* <WhyChoose/> */}
+      <FeatureCards/>
       <VideoTwo />
       <CounterOne />
-      <TeamOne />
-      <BrandTwo brandThree />
+      {/* <TeamOne /> */}
+      {/* <BrandTwo brandThree /> */}
+      <TestimonialOne aboutPage />
     </Layout>
   );
 };

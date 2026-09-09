@@ -24,7 +24,15 @@ const SiteFooter = () => {
                   <div className="footer-widget__about-logo">
                     <Link href="/">
                       <a>
-                        <Image src={logo.src} alt="" />
+                        <Image src={logo.src} 
+                         width={180}
+                        height={60}
+                        style={{ objectFit: "contain" }}
+                        alt="Thar Vibe Holiday"
+                        
+                        
+                        
+                        />
                       </a>
                     </Link>
                   </div>

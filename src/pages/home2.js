@@ -16,7 +16,7 @@ import React from "react";
 const Home2 = () => {
   return (
     <Layout pageTitle="Home Two">
-      <BannerTwo />
+      {/* <BannerTwo /> */}
       <ThreeIconBox />
       <PopularToursTwo />
       <SingaporeTour />

@@ -5,7 +5,9 @@ import GalleryOne from "@/components/GalleryOne/GalleryOne";
 import Layout from "@/components/Layout/Layout";
 import MainSlider from "@/components/MainSlider/MainSlider";
 import NewsOne from "@/components/NewsOne/NewsOne";
+import OneDayTourSlider from "@/components/OneDayTourSlider/OneDayTourSlider";
 import PopularTours from "@/components/PopularTours/PopularTours";
+import TaxiServiceIntro from "@/components/TaxiServiceIntro/TaxiServiceIntro";
 import TestimonialOne from "@/components/TestimonialOne/TestimonialOne";
 import TourSearch from "@/components/TourSearch/TourSearch";
 import VideoOne from "@/components/VideoOne/VideoOne";
@@ -21,11 +23,15 @@ const Home = () => {
       <AboutOne />
       <PopularTours />
       <VideoOne />
-      <BrandOne />
-      <TestimonialOne />
-      <GalleryOne />
+      {/* <BrandOne /> */}
+      <TaxiServiceIntro/>
+      <OneDayTourSlider/>
+     
+    
       <WhyChoose />
-      <NewsOne />
+      {/* <NewsOne /> */}
+        {/* <GalleryOne /> */}
+         <TestimonialOne />
     </Layout>
   );
 };

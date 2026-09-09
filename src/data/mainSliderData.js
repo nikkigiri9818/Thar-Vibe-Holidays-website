@@ -1,25 +1,25 @@
-import bg1 from "@/images/backgrounds/main-slider-1-1.jpg";
-import bg2 from "@/images/backgrounds/main-slider-1-2.jpg";
-import bg3 from "@/images/backgrounds/main-slider-1-3.jpg";
+import bg1 from "@/images/backgrounds/raj1.jpg";
+import bg2 from "@/images/backgrounds/raj2.jpg";
+import bg3 from "@/images/backgrounds/raj3.jpg";
 
 const mainSliderData = [
   {
     id: 1,
     bg: bg1,
-    subTitle: "Where Would You Like To Go?",
-    title: "Travel & Adventures",
+    subTitle: "Land of Kings & Forts",
+    title: "Explore Royal Rajasthan",
   },
   {
     id: 2,
     bg: bg2,
-    subTitle: "Where Would You Like To Go?",
-    title: "Travel & Adventures",
+    subTitle: "15+ Monuments, Fully Customizable",
+    title: "Jaipur Sightseeing Package",
   },
   {
     id: 3,
     bg: bg3,
-    subTitle: "Where Would You Like To Go?",
-    title: "Travel & Adventures",
+    subTitle: "Rajasthan Tour, Golden Triangle & More",
+    title: "Customizable Tour Packages",
   },
 ];
 

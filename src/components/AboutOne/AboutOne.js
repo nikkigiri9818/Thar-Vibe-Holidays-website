@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import aboutOne from "@/data/aboutOne";
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
@@ -38,7 +40,9 @@ const AboutOne = () => {
                   <div className="about-one__call-number">
                     <p>Book Tour Now</p>
                     <h4>
-                      <a href={`tel:${phone}`}>{phone}</a>
+                      <Link href={`tel:${phone}`}>
+                        <a>{phone}</a>
+                      </Link>
                     </h4>
                   </div>
                 </div>
@@ -68,9 +72,10 @@ const AboutOne = () => {
                   </li>
                 ))}
               </ul>
-              <a href="#" className="about-one__btn thm-btn">
-                Book with us now
-              </a>
+
+              <Link href="/contact">
+                <a className="about-one__btn thm-btn">Book with us now</a>
+              </Link>
             </div>
           </Col>
         </Row>

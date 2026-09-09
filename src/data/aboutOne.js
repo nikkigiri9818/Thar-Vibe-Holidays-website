@@ -1,4 +1,4 @@
-import about from "@/images/resources/about-one-img-1.png";
+import about from "@/images/gallery/udaipurimg.jpg";
 import shape1 from "@/images/shapes/about-one-shape-1.png";
 import shape2 from "@/images/shapes/about-one-shape-2.png";
 
@@ -6,16 +6,16 @@ const aboutOne = {
   about,
   shape1,
   shape2,
-  phone: "666-888-0000",
+  phone: "+91 7413986979",
   discount: "30%",
   tagline: "Get to know us",
-  title: "Plan Your Trip with Trevily",
+  title: "Plan Your Trip with Thar Vibe Holidays",
   destination:
-    "There are many variations of passages of available but the majority have suffered alteration in some form, by injected hum randomised words which don't look even slightly.",
+    "Thar Vibe Holidays is a Jaipur-based travel company offering customized Rajasthan tour packages, one-day sightseeing trips, and reliable taxi services. From the Pink City to the golden dunes of Jaisalmer, we help you explore the land of kings and forts with trusted local expertise.",
   points: [
-    "Invest in your simply neighborhood",
-    "Support people in free text extreme need",
-    "Largest global industrial business community",
+    "Customized Rajasthan tour packages",
+    "Experienced local guides and drivers",
+    "One-day tours & outstation taxi service",
   ],
 };
 
