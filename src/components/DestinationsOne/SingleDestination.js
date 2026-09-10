@@ -65,7 +65,7 @@ const DestinationCard = ({ destination }) => {
     >
       {/* FULL CARD IMAGE */}
       <Image
-        src={image}
+        src={image.src}
         alt={title}
         layout="fill"
         objectFit="cover"
