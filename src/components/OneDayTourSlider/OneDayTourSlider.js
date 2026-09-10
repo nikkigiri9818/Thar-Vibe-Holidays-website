@@ -85,7 +85,7 @@ const OneDayTourSlider = () => {
                       }}
                     >
                       <Image
-                        src={tour.image.src}
+                        src={tour.image}
                         alt={tour.title}
                         layout="fill"
                         objectFit="cover"
