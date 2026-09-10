@@ -6,7 +6,7 @@ import pushkarImg from "@/images/gallery/pushkarimg.jpeg";
 import ranthamboreImg from "@/images/gallery/ranthmbor.jpeg";
 import agraImg from "@/images/gallery/agara.jpeg";
 import ajmerImg from "@/images/gallery/ajmer.jpeg";
-import sariskaImg from "@/images/gallery/sariska.jpeg";
+import sariskaImg from "@/images/gallery/ajmer.jpeg";
 import khatuSalasarImg from "@/images/gallery/KhatuSalasar.jpeg";
 
 const destinationsOne = [
