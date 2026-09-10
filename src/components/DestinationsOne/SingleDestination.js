@@ -33,11 +33,6 @@
 
 // export default SingleDestination;
 
-
-
-
-
-
 "use client";
 
 import React, { useState } from "react";
@@ -53,7 +48,7 @@ import "swiper/css/navigation";
 const DestinationCard = ({ destination }) => {
   const [hovered, setHovered] = useState(false);
 
-  const { image, title, tours, subTitle,slug } = destination;
+  const { image, title, tours, subTitle, slug } = destination;
 
   return (
     <div
@@ -69,28 +64,26 @@ const DestinationCard = ({ destination }) => {
       }}
     >
       {/* FULL CARD IMAGE */}
-     <Image
-  src={image.src}
-  alt={title}
-  layout="fill"
-  objectFit="cover"
-  objectPosition="center"
-  sizes="(max-width: 576px) 100vw, (max-width: 992px) 50vw, 33vw"
-  style={{
-    zIndex: 0,
-    transform: hovered ? "scale(1.08)" : "scale(1)",
-    transition: "transform 0.6s ease",
-  }}
-/>
+      <Image
+        src={image}
+        alt={title}
+        layout="fill"
+        objectFit="cover"
+        objectPosition="center"
+        sizes="(max-width: 576px) 100vw, (max-width: 992px) 50vw, 33vw"
+        style={{
+          zIndex: 0,
+          transform: hovered ? "scale(1.08)" : "scale(1)",
+          transition: "transform 0.6s ease",
+        }}
+      />
       {/* BLACK OVERLAY */}
       <div
         style={{
           position: "absolute",
           inset: 0,
           zIndex: 1,
-          background: hovered
-            ? "rgba(0,0,0,0.60)"
-            : "rgba(0,0,0,0.20)",
+          background: hovered ? "rgba(0,0,0,0.60)" : "rgba(0,0,0,0.20)",
           transition: "background 0.4s ease",
         }}
       />
@@ -116,12 +109,9 @@ const DestinationCard = ({ destination }) => {
 
             opacity: hovered ? 1 : 0,
 
-            transform: hovered
-              ? "translateY(0)"
-              : "translateY(-20px)",
+            transform: hovered ? "translateY(0)" : "translateY(-20px)",
 
-            transition:
-              "opacity 0.4s ease, transform 0.4s ease",
+            transition: "opacity 0.4s ease, transform 0.4s ease",
           }}
         >
           {tours} {Number(tours) === 1 ? "TOUR" : "TOURS"}
@@ -140,9 +130,7 @@ const DestinationCard = ({ destination }) => {
 
           padding: "25px",
 
-          transform: hovered
-            ? "translateY(0)"
-            : "translateY(0)",
+          transform: hovered ? "translateY(0)" : "translateY(0)",
 
           transition: "transform 0.4s ease",
         }}
@@ -157,12 +145,9 @@ const DestinationCard = ({ destination }) => {
               fontStyle: "italic",
 
               opacity: hovered ? 1 : 0,
-              transform: hovered
-                ? "translateY(0)"
-                : "translateY(20px)",
+              transform: hovered ? "translateY(0)" : "translateY(20px)",
 
-              transition:
-                "opacity 0.4s ease, transform 0.4s ease",
+              transition: "opacity 0.4s ease, transform 0.4s ease",
             }}
           >
             {subTitle}
@@ -170,7 +155,7 @@ const DestinationCard = ({ destination }) => {
         )}
 
         {/* TITLE */}
-        <h2 
+        <h2
           style={{
             margin: 0,
             padding: 0,
@@ -237,9 +222,9 @@ const DestinationsSlider = ({ destinations = [] }) => {
           <SwiperSlide
             key={destination.id}
             style={{
-    height: "285px",
-    overflow: "hidden",
-  }}
+              height: "285px",
+              overflow: "hidden",
+            }}
           >
             <DestinationCard destination={destination} />
           </SwiperSlide>
@@ -310,8 +295,6 @@ const DestinationsSlider = ({ destinations = [] }) => {
             <path d="M9 18l6-6-6-6" />
           </svg>
         </button>
-
-        
       </div>
     </div>
   );
