@@ -1,0 +1,213 @@
+import jaipurImg from "@/images/gallery/jaipurimage1.jpeg";
+import udaipurImg from "@/images/gallery/udaipurimg.jpg";
+import jodhpurImg from "@/images/gallery/jodhpurimg.jpg";
+import jaisalmerImg from "@/images/gallery/jaisalmerimg.jpeg";
+import pushkarImg from "@/images/gallery/pushkarimg.jpeg";
+
+const overviewText =
+  "Famous for the vibrant culture, captivating folk dance and music and breathtaking views of Aravallis and the golden landscape of the Thar Desert, Rajasthan is indeed a great tourist destination. With lavish hospitality and rich culture, it offers a perfect glimpse of incredible India. This is the reason that countless travellers from the nation and abroad visit the royal state every year. The grandeur of magnificent palaces and massive forts make fairytales real when you visit these heart-stealing places. If you are a food-lover, this state offers a royal taste of culture you won't like to miss! Have a look at the detailed tour itinerary designed by our travel experts. If you wish to have some other plans, you can customize the itinerary. Talk to our experts regarding your requirements and they will plan a perfect holiday getaway for you.";
+
+const fullItinerary = [
+  {
+    day: 1,
+    title: "Arrival Jaipur Airport/Railway Station – Hotel & Local Sightseeing",
+    desc: "Meet and Greet by our executives at your disposal. Proceed to the hotel & check in to your room. After some rest explore the Jaipur Pink City. Jaipur is also known as the Pink City due to the dominant color scheme of its buildings. Also visit Statue Circle, Patrika Gate, Birla Mandir, Albert Hall Museum, Hawa Mahal, Jantar Mantar, City Palace, Royal Gaitor, Jal Mahal, Khajana Mahal — a museum of its kind in India dedicated to Gem's-Jewelry situated in the heart of Jaipur city. Back to hotel, overnight stay at hotel.",
+  },
+  {
+    day: 2,
+    title: "Jaipur Fort's Sightseeing",
+    desc: "Amber Fort — Amer Mahal is a unique example of Rajput architecture with influences of Mughal architecture. Built of red sandstone and marble, the palace is built on four levels, each with a courtyard, including the Diwan-i-Aam, Diwan-i-Khas, Sheesh Mahal and Sukh Niwas. Jaigarh Fort — rugged and similar in structural design to Amer Fort, also known as the Victory Fort. Nahargarh Fort — built in the 19th century, the sunset looks gorgeous from here. After sunset, overnight stay at the hotel.",
+  },
+  {
+    day: 3,
+    title: "Transfer To Jodhpur City Via Ajmer/Pushkar & Kishangarh",
+    desc: "After breakfast, check-out from the hotel & proceed to Jodhpur City. On route visit Kishangarh — famous for marble slurry waste, popularly known as the mines of snow. Ajmer — culturally vivid and historically royal, visit the famous Ajmer-e-Sharif Dargah, Adhai-Din-Ka Jhonpra and Ana Sagar Lake. Pushkar — home to almost 400 temples, the major attraction is the temple of Lord Brahma, the only temple in India dedicated to his worship. Continue drive to Jodhpur City & check in, overnight stay.",
+  },
+  {
+    day: 4,
+    title: "Jodhpur Local Sightseeing – War Museum & Jaisalmer City Stay",
+    desc: "After breakfast, check out and explore Jodhpur City — Umaid Bhawan Palace, Mehrangarh Fort, Moti Mahal, Phool Mahal, Toorji ka Jhalra, Mandor Bagh. Continue drive to Jaisalmer City, en route visit the War Museum, which displays exhibits from the 1965 and 1971 wars, including a Hunter Aircraft of the Indian Air Force. Continue to Jaisalmer, check in, overnight stay.",
+  },
+  {
+    day: 5,
+    title: "Jaisalmer Local Sightseeing – Thar Desert Camp Stay",
+    desc: "After breakfast, check-out and witness Jaisalmer Fort — one of the 'living forts' of the world, home to almost one-fourth of the town's population, made of golden limestone (Sonar Quilla). Visit Chandraprabhu Jain Temple, Patwon-ki-Haveli, Nathmal-ki-Haveli, Salim Singh-ki-Haveli, Gadi Sagar Lake. Transfer to Thar Desert Camp — includes welcome with Aarti & Tikka, welcome drink, camel safari with bonfire & cultural program, jeep safari, folk dance, music & DJ party, evening tea/coffee with snacks, buffet Rajasthani dinner & breakfast, mineral water. Overnight stay in Luxury Thar Desert Camp.",
+  },
+  {
+    day: 6,
+    title: "Transfer To Jaisalmer City & Drop At Airport/Railway Station",
+    desc: "After breakfast, check out from the desert camp and proceed to Jaisalmer City, en route visit Kuldhara Village — an abandoned village established around the 13th century, once inhabited by Paliwal Brahmins, popularly known as a 'haunted' village. Continue drive to Jaisalmer City & drop at the Airport/Railway Station for onward journey.",
+  },
+];
+
+const inclusions = [
+  "Air-Conditioned Car with Mineral Water, toll, Parking, Fuel, Driver Allowance",
+  "Desert All Activities",
+  "Camel & Jeep Safari in Thar Desert",
+  "A Courteous Driver",
+  "Breakfast & Dinner",
+];
+
+const exclusions = [
+  "All Monuments Entrance Fees",
+  "Air Fare & Train Fare",
+  "Lunch",
+];
+
+const tourPackagesData = [
+  {
+    id: 1,
+    slug: "rajasthan-tour-02n-03d",
+    image: jaisalmerImg,
+    title: "Rajasthan Tour 02N 03D",
+    durationLabel: "02Night & 03 Day",
+    tourTimings: "Full Day",
+    visaRequirements: "No",
+    tripType: "Tour",
+    priceLabel: "On Request",
+    overview: overviewText,
+    itinerary: fullItinerary.slice(0, 3),
+    inclusions,
+    exclusions,
+  },
+  {
+    id: 2,
+    slug: "rajasthan-tour-3n-4d",
+    image: jodhpurImg,
+    title: "Rajasthan Tour 3N 4D",
+    durationLabel: "3N 4D",
+    tourTimings: "Full Day",
+    visaRequirements: "No",
+    tripType: "Tour",
+    priceLabel: "On Request",
+    overview: overviewText,
+    itinerary: fullItinerary.slice(0, 4),
+    inclusions,
+    exclusions,
+  },
+  {
+    id: 3,
+    slug: "rajasthan-tour-4n-5d",
+    image: udaipurImg,
+    title: "Rajasthan Tour 4N 5D",
+    durationLabel: "4 Night & 5 Days",
+    tourTimings: "Full Day",
+    visaRequirements: "No",
+    tripType: "Tour",
+    priceLabel: "On Request",
+    overview: overviewText,
+    itinerary: fullItinerary.slice(0, 5),
+    inclusions,
+    exclusions,
+  },
+  {
+    id: 4,
+    slug: "rajasthan-tour-5n-6d",
+    image: pushkarImg,
+    title: "Rajasthan Tour 5N 6D",
+    durationLabel: "5 Night & 6 Days",
+    tourTimings: "Full Day",
+    visaRequirements: "No",
+    tripType: "Tour",
+    priceLabel: "On Request",
+    overview: overviewText,
+    itinerary: fullItinerary,
+    inclusions,
+    exclusions,
+  },
+  {
+    id: 5,
+    slug: "rajasthan-tour-6n-7d",
+    image: jaisalmerImg,
+    title: "Rajasthan Tour 6N 7D",
+    durationLabel: "6 Night & 7 Days",
+    tourTimings: "Full Day",
+    visaRequirements: "No",
+    tripType: "Tour",
+    priceLabel: "On Request",
+    overview: overviewText,
+    itinerary: [
+      ...fullItinerary,
+      { day: 7, title: "Bikaner Excursion & Departure", desc: "After breakfast, drive to Bikaner, visit Junagarh Fort and local markets. Later, transfer to airport/railway station for onward journey." },
+    ],
+    inclusions,
+    exclusions,
+  },
+  {
+    id: 6,
+    slug: "rajasthan-tour-7n-8d",
+    image: udaipurImg,
+    title: "Rajasthan Tour 7N 8D",
+    durationLabel: "7 Night & 8 Days",
+    tourTimings: "Full Day",
+    visaRequirements: "No",
+    tripType: "Tour",
+    priceLabel: "On Request",
+    overview: overviewText,
+    itinerary: [
+      ...fullItinerary,
+      { day: 7, title: "Udaipur Sightseeing", desc: "Drive to Udaipur, visit City Palace, Lake Pichola boat ride, Saheliyon ki Bari. Overnight stay in Udaipur." },
+      { day: 8, title: "Departure", desc: "After breakfast, transfer to Udaipur Airport/Railway Station for onward journey." },
+    ],
+    inclusions,
+    exclusions,
+  },
+  {
+    id: 7,
+    slug: "rajasthan-tour-8n-9d",
+    image: jodhpurImg,
+    title: "Rajasthan Tour 8N 9D",
+    durationLabel: "8 Night & 9 Days",
+    tourTimings: "Full Day",
+    visaRequirements: "No",
+    tripType: "Tour",
+    priceLabel: "On Request",
+    overview: overviewText,
+    itinerary: [
+      ...fullItinerary,
+      { day: 7, title: "Bikaner Excursion", desc: "Drive to Bikaner, visit Junagarh Fort and local markets. Overnight stay in Bikaner." },
+      { day: 8, title: "Udaipur Sightseeing", desc: "Drive to Udaipur, visit City Palace, Lake Pichola boat ride. Overnight stay in Udaipur." },
+      { day: 9, title: "Departure", desc: "After breakfast, transfer to Udaipur Airport/Railway Station for onward journey." },
+    ],
+    inclusions,
+    exclusions,
+  },
+  {
+    id: 8,
+    slug: "rajasthan-tour-9n-10d",
+    image: jaisalmerImg,
+    title: "Rajasthan Tour 9N 10D",
+    durationLabel: "9 Night & 10 Days",
+    tourTimings: "Full Day",
+    visaRequirements: "No",
+    tripType: "Tour",
+    priceLabel: "On Request",
+    overview: overviewText,
+    itinerary: [
+      ...fullItinerary,
+      { day: 7, title: "Bikaner Excursion", desc: "Drive to Bikaner, visit Junagarh Fort and local markets. Overnight stay in Bikaner." },
+      { day: 8, title: "Udaipur Sightseeing", desc: "Drive to Udaipur, visit City Palace, Lake Pichola boat ride. Overnight stay in Udaipur." },
+      { day: 9, title: "Mount Abu Excursion", desc: "Drive to Mount Abu, visit Dilwara Temples and Nakki Lake. Overnight stay in Mount Abu." },
+      { day: 10, title: "Departure", desc: "After breakfast, transfer to airport/railway station for onward journey." },
+    ],
+    inclusions,
+    exclusions,
+  },
+  {
+    id: 9,
+    slug: "jaipur-city-tour",
+    image: jaipurImg,
+    title: "Jaipur City Tour",
+    durationLabel: "02Night & 03 Days",
+    tourTimings: "Full Day",
+    visaRequirements: "No",
+    tripType: "Tour",
+    priceLabel: "on request",
+    overview: overviewText,
+    itinerary: fullItinerary.slice(0, 2),
+    inclusions,
+    exclusions,
+  },
+];
+
+export default tourPackagesData;

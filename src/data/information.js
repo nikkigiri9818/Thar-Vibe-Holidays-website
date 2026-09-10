@@ -1,7 +1,7 @@
 const information = {
-  address: "88 Broklyn Street \n Road New York. USA",
-  phones: ["+92 666 888 0000", "666 888 0000"],
-  mails: ["needhelp@tevily.com", "info@tevily.com"],
+   address: "Shop No 229, Unnati Tower, Centre Spine, \n Vidhyadhar Nagar, Jaipur, Rajasthan",
+  phones: ["+91 7413986979", "+91 9079097875"],
+  mails: ["tharvibeholdiays@gmail.com"],
 };
 
 export default information;

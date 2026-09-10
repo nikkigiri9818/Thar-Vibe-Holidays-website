@@ -1,11 +1,9 @@
+
 import brandTwo from "@/data/brandTwo";
 import React from "react";
 import { Container, Image } from "react-bootstrap";
-import SwiperCore, { Autoplay } from "swiper";
+import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-SwiperCore.use([Autoplay]);
-
 const slideOptions = {
   spaceBetween: 100,
   slidesPerView: 5,

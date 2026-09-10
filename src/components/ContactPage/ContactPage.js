@@ -42,12 +42,26 @@ const ContactPage = () => {
                   className="comment-one__form contact-form-validated"
                 >
                   <Row>
+                    <Col xl={12}>
+                      <div className="comment-form__input-box">
+                        <input
+                          type="text"
+                          placeholder="Enter your Name"
+                          name="name"
+                          required
+                        />
+                      </div>
+                    </Col>
+                  </Row>
+                  <Row>
                     <Col xl={6}>
                       <div className="comment-form__input-box">
                         <input
                           type="text"
-                          placeholder="Your name"
-                          name="name"
+                          inputMode="tel"
+                          pattern="[0-9+\s]*"
+                          placeholder="Enter your phone"
+                          name="phone"
                           required
                         />
                       </div>
@@ -56,8 +70,53 @@ const ContactPage = () => {
                       <div className="comment-form__input-box">
                         <input
                           type="email"
-                          placeholder="Email address"
+                          placeholder="Enter a valid email address"
                           name="email"
+                          required
+                        />
+                      </div>
+                    </Col>
+                  </Row>
+                  <Row>
+                    <Col xl={6} >
+                      <div className="comment-form__input-box">
+                        <input
+                          type="text"
+                          placeholder="Pick Up City"
+                          name="pickupCity"
+                          required
+                        />
+                      </div>
+                    </Col>
+                    <Col xl={6}>
+                      <div className="comment-form__input-box">
+                        <input
+                          type="text"
+                          placeholder="Drop City"
+                          name="dropCity"
+                          required
+                        />
+                      </div>
+                    </Col>
+                  </Row>
+                  <Row>
+                    <Col xl={12}>
+                      <div className="comment-form__input-box">
+                        <label
+                          htmlFor="pickupDate"
+                          style={{
+                            display: "block",
+                            fontWeight: 600,
+                            marginBottom: "8px",
+                            fontSize: "14px",
+                          }}
+                        >
+                          PickUp Date
+                        </label>
+                        <input style={{marginBottom:"35px"}}
+                          type="date"
+                          id="pickupDate"
+                          name="pickupDate"
                           required
                         />
                       </div>
@@ -76,7 +135,7 @@ const ContactPage = () => {
                         type="submit"
                         className="thm-btn comment-form__btn"
                       >
-                        Send a message
+                        Send Message
                       </button>
                     </Col>
                   </Row>
