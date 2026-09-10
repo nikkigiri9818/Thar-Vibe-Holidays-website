@@ -38,17 +38,24 @@ const TourPackagesPage = () => {
                     cursor: "pointer",
                     transition: "transform 0.3s ease",
                   }}
-                  onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.02)")}
-                  onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
+                  onMouseEnter={(e) =>
+                    (e.currentTarget.style.transform = "scale(1.02)")
+                  }
+                  onMouseLeave={(e) =>
+                    (e.currentTarget.style.transform = "scale(1)")
+                  }
                 >
-                  <Image
-                    src={pkg.image}
-                    alt={pkg.title}
-                   layout="fill"
-  objectFit="cover"
-  objectPosition="center"
-  sizes="(max-width: 576px) 100vw, (max-width: 992px) 50vw, 33vw"
-                  />
+                 <img
+  src={pkg.image.src}
+  alt={pkg.title}
+  style={{
+    width: "100%",
+    height: "100%",
+    objectFit: "cover",
+    objectPosition: "center",
+    display: "block",
+  }}
+/>
                   <div
                     style={{
                       position: "absolute",
@@ -84,14 +91,30 @@ const TourPackagesPage = () => {
                         fontSize: "13px",
                       }}
                     >
-                      <span style={{ color: "#eee", display: "flex", alignItems: "center", gap: "5px" }}>
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                      <span
+                        style={{
+                          color: "#eee",
+                          display: "flex",
+                          alignItems: "center",
+                          gap: "5px",
+                        }}
+                      >
+                        <svg
+                          width="14"
+                          height="14"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                        >
                           <circle cx="12" cy="12" r="10" />
                           <path d="M12 6v6l4 2" />
                         </svg>
                         {pkg.durationLabel}
                       </span>
-                      <span style={{ color: "#f2c14e", fontWeight: 600 }}>{pkg.priceLabel}</span>
+                      <span style={{ color: "#f2c14e", fontWeight: 600 }}>
+                        {pkg.priceLabel}
+                      </span>
                     </div>
                   </div>
                 </div>

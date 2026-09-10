@@ -47,13 +47,16 @@ const OurFleetPage = () => {
     <Layout>
       {/* HERO BANNER */}
       <div style={{ position: "relative", width: "100%", height: "300px" }}>
-        <Image
-          src={heroBg}
+        <img
+          src={heroBg.src}
           alt="Our Fleet"
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center"
-          style={{ objectFit: "cover" }}
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            objectPosition: "center",
+            display: "block",
+          }}
         />
         <div
           style={{
@@ -142,13 +145,16 @@ const OurFleetPage = () => {
                     height: "260px",
                   }}
                 >
-                  <Image
-                    src={service.image}
+                  <img
+                    src={service.image.src}
                     alt={service.title}
-                    layout="fill"
-                    objectFit="cover"
-                    objectPosition="center"
-                    style={{ objectFit: "cover" }}
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "cover",
+                      objectPosition: "center",
+                      display: "block",
+                    }}
                   />
                 </div>
                 <div className="my-item">
