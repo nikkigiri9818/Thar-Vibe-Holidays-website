@@ -20,15 +20,17 @@ const TaxiServicePage = () => {
     <Layout>
       {/* HERO BANNER */}
       <div style={{ position: "relative", width: "100%", height: "400px" }}>
-        <Image
-          src={heroBg}
-          alt="One Way and Outstation Taxi Service"
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center"
-          priority
-          style={{ objectFit: "cover" }}
-        />
+        <img
+  src={heroBg.src}
+  alt="One Way and Outstation Taxi Service"
+  style={{
+    width: "100%",
+    height: "100%",
+    objectFit: "cover",
+    objectPosition: "center",
+    display: "block",
+  }}
+/>
         <div
           style={{
             position: "absolute",
@@ -117,14 +119,17 @@ const TaxiServicePage = () => {
                       height: "320px",
                     }}
                   >
-                    <Image
-                      src={img}
-                      alt={`Taxi Service ${i + 1}`}
-                      layout="fill"
-                      objectFit="cover"
-                      objectPosition="center"
-                      style={{ objectFit: "contain" }}
-                    />
+                   <img
+  src={img.src}
+  alt={`Taxi Service ${i + 1}`}
+  style={{
+    width: "100%",
+    height: "100%",
+    objectFit: "contain",
+    objectPosition: "center",
+    display: "block",
+  }}
+/>
                   </div>
                 </SwiperSlide>
               ))}
