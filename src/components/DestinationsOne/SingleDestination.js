@@ -64,7 +64,7 @@ const DestinationCard = ({ destination }) => {
       }}
     >
       {/* FULL CARD IMAGE */}
-      <Image
+      {/* <img
         src={image.src}
         alt={title}
         layout="fill"
@@ -76,7 +76,22 @@ const DestinationCard = ({ destination }) => {
           transform: hovered ? "scale(1.08)" : "scale(1)",
           transition: "transform 0.6s ease",
         }}
-      />
+      /> */}
+
+      <img
+  src={image.src}
+  alt={title}
+  style={{
+    width: "100%",
+    height: "100%",
+    objectFit: "cover",
+    objectPosition: "center",
+    display: "block",
+    zIndex: 0,
+    transform: hovered ? "scale(1.08)" : "scale(1)",
+    transition: "transform 0.6s ease",
+  }}
+/>
       {/* BLACK OVERLAY */}
       <div
         style={{
