@@ -1,13 +1,25 @@
-import jaipurImg from "@/images/gallery/jaipurimage1.jpeg";
-import udaipurImg from "@/images/gallery/udaipurimg.jpg";
-import jodhpurImg from "@/images/gallery/jodhpurimg.jpg";
-import jaisalmerImg from "@/images/gallery/jaisalmerimg.jpeg";
-import pushkarImg from "@/images/gallery/pushkarimg.jpeg";
-import ranthamboreImg from "@/images/gallery/ranthmbor.jpeg";
-import agraImg from "@/images/gallery/agara.jpeg";
-import ajmerImg from "@/images/gallery/ajmer.jpeg";
-import sariskaImg from "@/images/gallery/ajmer.jpeg";
-import khatuSalasarImg from "@/images/gallery/KhatuSalasar.jpeg";
+// import jaipurImg from "@/images/gallery/jaipurimage1.jpeg";
+// import udaipurImg from "@/images/gallery/udaipurimg.jpg";
+// import jodhpurImg from "@/images/gallery/jodhpurimg.jpg";
+// import jaisalmerImg from "@/images/gallery/jaisalmerimg.jpeg";
+// import pushkarImg from "@/images/gallery/pushkarimg.jpeg";
+// import ranthamboreImg from "@/images/gallery/ranthmbor.jpeg";
+// import agraImg from "@/images/gallery/agara.jpeg";
+// import ajmerImg from "@/images/gallery/ajmer.jpeg";
+// import sariskaImg from "@/images/gallery/ajmer.jpeg";
+// import khatuSalasarImg from "@/images/gallery/KhatuSalasar.jpeg";
+
+
+const jaipurImg = "/images/gallery/jaipurimage1.jpeg";
+const udaipurImg = "/images/gallery/udaipurimg.jpg";
+const jodhpurImg = "/images/gallery/jodhpurimg.jpg";
+const jaisalmerImg = "/images/gallery/jaisalmerimg.jpeg";
+const pushkarImg = "/images/gallery/pushkarimg.jpeg";
+const ranthamboreImg = "/images/gallery/ranthmbor.jpeg";
+const agraImg = "/images/gallery/agara.jpeg";
+const ajmerImg = "/images/gallery/ajmer.jpeg";
+const sariskaImg = "/images/gallery/ajmer.jpeg";
+const khatuSalasarImg = "/images/gallery/KhatuSalasar.jpeg";
 
 const destinationsOne = [
   {
