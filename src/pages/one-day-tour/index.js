@@ -26,9 +26,18 @@ const OneDayTourPage = () => {
         <div className="container">
           <div style={{ textAlign: "center", marginBottom: "45px" }}>
             <h2 className="section-title__tagline">One Day Tours</h2>
-            <p style={{ color: "#777", maxWidth: "520px", margin: "0 auto", fontSize: "14px", lineHeight: "27px" }}>
-              Travel has helped us to understand the meaning of life and it has helped us become
-              better people. Each time we travel, we see the world with new eyes.
+            <p
+              style={{
+                color: "#777",
+                maxWidth: "520px",
+                margin: "0 auto",
+                fontSize: "14px",
+                lineHeight: "27px",
+              }}
+            >
+              Travel has helped us to understand the meaning of life and it has
+              helped us become better people. Each time we travel, we see the
+              world with new eyes.
             </p>
           </div>
 
@@ -48,26 +57,43 @@ const OneDayTourPage = () => {
                   onMouseLeave={() => setHoveredId(null)}
                 >
                   {/* Image */}
-                  <div style={{ position: "relative", width: "100%", height: "170px", borderRadius: "6px 6px 0 0", overflow: "hidden" }}>
-                    <Image src={tour.image} alt={tour.title}
-                    layout="fill"
-  objectFit="cover"
-  objectPosition="center"
-  sizes="(max-width: 576px) 100vw, (max-width: 992px) 50vw, 33vw"
-                    />
+                  <div
+                    style={{
+                      position: "relative",
+                      width: "100%",
+                      height: "170px",
+                      borderRadius: "6px 6px 0 0",
+                      overflow: "hidden",
+                    }}
+                  >
+                   <img
+  src={tour.image.src}
+  alt={tour.title}
+  style={{
+    width: "100%",
+    height: "100%",
+    objectFit: "cover",
+    objectPosition: "center",
+    display: "block",
+  }}
+/>
                   </div>
 
                   {/* White card body */}
                   <div
                     style={{
                       position: "relative",
-                      background: isHovered ? "rgb(65, 65, 165)" : "rgb(255, 255, 255)",
+                      background: isHovered
+                        ? "rgb(65, 65, 165)"
+                        : "rgb(255, 255, 255)",
                       borderRadius: "7px",
                       padding: "25px 16px",
                       margin: "-25px 15px 0",
                       boxShadow: "0px 0px 30px 0px rgba(102, 102, 102, 0.09)",
                       transition: "background 0.5s",
-                      animation: isHovered ? "fadeInUp 0.3s linear 0s 1 normal none" : "none",
+                      animation: isHovered
+                        ? "fadeInUp 0.3s linear 0s 1 normal none"
+                        : "none",
                     }}
                   >
                     <h3
@@ -91,7 +117,14 @@ const OneDayTourPage = () => {
                         transition: "color 0.3s",
                       }}
                     >
-                      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                      <svg
+                        width="13"
+                        height="13"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                      >
                         <circle cx="12" cy="12" r="10" />
                         <path d="M12 6v6l4 2" />
                       </svg>
@@ -118,7 +151,14 @@ const OneDayTourPage = () => {
                           transition: "color 0.3s",
                         }}
                       >
-                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <svg
+                          width="13"
+                          height="13"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                        >
                           <circle cx="12" cy="12" r="10" />
                           <path d="M12 6v6l4 2" />
                         </svg>

@@ -84,14 +84,17 @@ const OneDayTourSlider = () => {
                         overflow: "hidden",
                       }}
                     >
-                      <Image
-                        src={tour.image}
-                        alt={tour.title}
-                        layout="fill"
-                        objectFit="cover"
-                        objectPosition="center"
-                        sizes="(max-width: 576px) 100vw, (max-width: 992px) 50vw, 33vw"
-                      />
+                     <img
+  src={tour.image.src}
+  alt={tour.title}
+  style={{
+    width: "100%",
+    height: "100%",
+    objectFit: "cover",
+    objectPosition: "center",
+    display: "block",
+  }}
+/>
                     </div>
 
                     {/* White card body */}
