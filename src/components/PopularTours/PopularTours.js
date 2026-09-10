@@ -50,7 +50,7 @@ const SingleTourPackage = ({ pkg }) => {
           cursor: "pointer",
         }}
       >
-        <Image src={pkg.image} alt={pkg.title}
+        <Image src={pkg.image.src} alt={pkg.title}
          fill layout="fill"
   objectFit="cover"
   objectPosition="center"
