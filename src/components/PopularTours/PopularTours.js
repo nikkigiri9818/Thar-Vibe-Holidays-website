@@ -50,14 +50,24 @@ const SingleTourPackage = ({ pkg }) => {
           cursor: "pointer",
         }}
       >
-        <Image src={pkg.image} alt={pkg.title}
+        {/* <Image src={pkg.image} alt={pkg.title}
          fill layout="fill"
   objectFit="cover"
   objectPosition="center"
-  sizes="(max-width: 576px) 100vw, (max-width: 992px) 50vw, 33vw" />
+  sizes="(max-width: 576px) 100vw, (max-width: 992px) 50vw, 33vw" /> */}
 
 
-
+<img
+  src={pkg.image.src}
+  alt={pkg.title}
+  style={{
+    width: "100%",
+    height: "100%",
+    objectFit: "cover",
+    objectPosition: "center",
+    display: "block",
+  }}
+/>
 
 
         <div

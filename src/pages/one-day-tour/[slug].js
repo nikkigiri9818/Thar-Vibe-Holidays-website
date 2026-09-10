@@ -34,14 +34,17 @@ const TourDetailPage = ({ tour }) => {
     <Layout>
       {/* HERO BANNER - full width bg image, tagline, title, breadcrumb */}
      <div style={{ position: "relative", width: "100%", height: "320px", overflow: "hidden" }}>
- <Image
-    src={tour.image}
-    alt={tour.title}
-    layout="fill"
-    objectFit="cover"
-    objectPosition="center"
-    priority
-  />
+ <img
+  src={tour.image.src}
+  alt={tour.title}
+  style={{
+    width: "100%",
+    height: "100%",
+    objectFit: "cover",
+    objectPosition: "center",
+    display: "block",
+  }}
+/>
   <div
     style={{
       position: "absolute",

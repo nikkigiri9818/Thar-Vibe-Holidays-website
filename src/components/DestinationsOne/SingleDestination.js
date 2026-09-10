@@ -64,20 +64,7 @@ const DestinationCard = ({ destination }) => {
       }}
     >
       {/* FULL CARD IMAGE */}
-      {/* <img
-        src={image.src}
-        alt={title}
-        layout="fill"
-        objectFit="cover"
-        objectPosition="center"
-        sizes="(max-width: 576px) 100vw, (max-width: 992px) 50vw, 33vw"
-        style={{
-          zIndex: 0,
-          transform: hovered ? "scale(1.08)" : "scale(1)",
-          transition: "transform 0.6s ease",
-        }}
-      /> */}
-
+     
       <img
   src={image.src}
   alt={title}
