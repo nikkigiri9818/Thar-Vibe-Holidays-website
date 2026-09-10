@@ -258,3 +258,26 @@ page-header__top-inner p{
     margin: 0;
     padding-bottom: 24px;
 }
+
+
+
+
+
+
+
+
+@media(max-width:500px){
+.video-one__icon-box {
+    margin-bottom: 15px;
+    margin-left:65px !important;
+    margin-right: 82px !important;
+}
+}
+
+@media (max-width: 768px) {
+    .why-choose__container.jsx-452fc93955813f9c {
+        
+        flex-direction: column;
+        width: 100% !important;
+    }
+}

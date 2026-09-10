@@ -16,7 +16,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <Layout pageTitle="Home One">
+    <Layout pageTitle="Thar Vibe Holidays | Rajasthan Tour & Travel Agency">
       <MainSlider />
       <TourSearch />
       <DestinationsOne />
