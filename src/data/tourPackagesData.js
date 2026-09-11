@@ -57,7 +57,7 @@ const exclusions = [
 const tourPackagesData = [
   {
     id: 1,
-    slug: "rajasthan-tour-02n-03d",
+    slug: "rajasthan-tour-2n-3d",
     image: jaisalmerImg,
     title: "Rajasthan Tour 02N 03D",
     durationLabel: "02Night & 03 Day",

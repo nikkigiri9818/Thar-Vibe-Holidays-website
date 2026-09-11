@@ -96,7 +96,8 @@ li {
 
 /* Header ke andar ka content */
 
-.stricky-header.stricked-menu.stricky-fixed .main-menu-wrapper {
+.stricky-header.stricked-menu.stricky-fixed
+  .main-menu-wrapper {
   width: 100%;
 }
 
@@ -224,7 +225,8 @@ page-header__top-inner p {
 ========================================= */
 
 @media (max-width: 1440px) {
-  .container.jsx-926676e0f5866ed4 {
+  /* Main Slider */
+  .main-slider-container {
     padding: 0 120px !important;
   }
 }
@@ -245,7 +247,8 @@ page-header__top-inner p {
     flex-wrap: nowrap !important;
   }
 
-  .container.jsx-926676e0f5866ed4 {
+  /* Main Slider */
+  .main-slider-container {
     padding: 0 196px !important;
   }
 
@@ -284,7 +287,8 @@ page-header__top-inner p {
     width: 100% !important;
   }
 
-  .container.jsx-926676e0f5866ed4 {
+  /* Main Slider */
+  .main-slider-container {
     padding: 0 179px !important;
   }
 
@@ -354,7 +358,7 @@ page-header__top-inner p {
     display: none !important;
   }
 
-  .container.jsx-926676e0f5866ed4 {
+  .main-slider-container {
     padding: 0 20px !important;
   }
 
