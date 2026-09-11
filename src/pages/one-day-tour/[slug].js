@@ -135,7 +135,7 @@ const TourDetailPage = ({ tour }) => {
           <div style={{ padding: "25px 5px" }}>
             {activeTab === "overview" && (
               <>
-                <h3 style={{ marginTop: 0 }}>Overview</h3>
+                <h3 style={{ marginTop: 0 ,marginBottom:"22px"}}>Overview</h3>
                 {tour.overview.split(". ").reduce((acc, sentence, i) => {
                   if (i % 2 === 0) acc.push(sentence);
                   else acc[acc.length - 1] += ". " + sentence;
@@ -150,7 +150,7 @@ const TourDetailPage = ({ tour }) => {
 
             {activeTab === "itinerary" && (
               <>
-                <h3 style={{ marginTop: 0 }}>Itinerary</h3>
+                <h3 style={{ marginTop: 0, marginBottom: "22px" }}>Itinerary</h3>
                 {tour.itinerary.map((day) => (
                   <div key={day.day} style={{ display: "flex", gap: "16px", marginBottom: "20px", paddingBottom: "20px", borderBottom: "1px solid #f0f0f0" }}>
                     <div
@@ -173,7 +173,7 @@ const TourDetailPage = ({ tour }) => {
 
             {activeTab === "inclusion" && (
               <>
-                <h3 style={{ marginTop: 0 }}>Inclusion</h3>
+                <h3 style={{ marginTop: 0, marginBottom: "22px" }}>Inclusion</h3>
                 <ul style={{ paddingLeft: "20px", color: "#555", lineHeight: 2 }}>
                   {tour.inclusions.map((item, i) => <li key={i}>{item}</li>)}
                 </ul>
@@ -182,7 +182,7 @@ const TourDetailPage = ({ tour }) => {
 
             {activeTab === "exclusion" && (
               <>
-                <h3 style={{ marginTop: 0 }}>Exclusion</h3>
+                <h3 style={{ marginTop: 0, marginBottom: "22px" }}>Exclusion</h3>
                 <ul style={{ paddingLeft: "20px", color: "#555", lineHeight: 2 }}>
                   {tour.exclusions.map((item, i) => <li key={i}>{item}</li>)}
                 </ul>

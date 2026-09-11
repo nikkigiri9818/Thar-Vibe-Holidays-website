@@ -75,7 +75,7 @@ const OurFleetPage = () => {
           }}
         >
           <Link href="/">
-            <a>Home</a>
+            <a style={{color:"blue"}}>Home</a>
           </Link>
 
           <span
@@ -104,7 +104,7 @@ const OurFleetPage = () => {
       <section style={{ background: "#f7f5f2", padding: "70px 0" }}>
         <div className="container">
           <div style={{ textAlign: "center", marginBottom: "50px" }}>
-            <h2
+            <h2 className="ourflete-heading"
               style={{ fontSize: "50px", margin: "0 0 15px", color: "#2b2b2b" }}
             >
               Our fleet Heading

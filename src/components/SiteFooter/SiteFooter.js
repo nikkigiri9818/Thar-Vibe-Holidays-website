@@ -25,7 +25,7 @@ const SiteFooter = () => {
                     <Link href="/">
                       <a>
                         <Image src={logo.src} 
-                         width={180}
+                         width={80}
                         height={60}
                         style={{ objectFit: "contain" }}
                         alt="Thar Vibe Holiday"

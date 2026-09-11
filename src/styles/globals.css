@@ -33,7 +33,9 @@ a {
 
 @media (max-width: 1024px) {
   .main-menu-wrapper__logo{
-        margin-right: 528px !important;
+        margin-right: 643px !important;
+         padding-top: 14px !important;
+      padding-bottom: 22.5px !important;
 
   }
 .container{
@@ -61,11 +63,13 @@ a {
 
 @media (max-width: 768px) {
  .main-menu-wrapper__logo{
-      margin-right: 342px !important;
+      margin-right: 477px !important;
+      padding-top: 14px !important;
+      padding-bottom: 22.5px !important;
  }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 430px) {
  .main-menu-wrapper__logo{
       margin-right: 0 !important;
  }
@@ -129,12 +133,20 @@ li {
 }
 
 
+/* fotter */
+
+@media (max-width: 430px) {
+  .site-footer__bottom {
+    display: none !important;
+  }
+  .site-footer__top-inner{
+    padding-bottom: 50px !important;
+    padding-top: 50px !important;
+  }
+}
 
 
-
-
-
-
+/* footer */
 
 
 
@@ -280,4 +292,170 @@ page-header__top-inner p{
         flex-direction: column;
         width: 100% !important;
     }
+}
+
+
+/* today add css for responsive */
+
+@media(max-width:1440px){
+ 
+  .container.jsx-926676e0f5866ed4{
+    padding:0 120px !important;
+  }
+}
+
+@media(max-width:1024px){
+  
+  .container.jsx-926676e0f5866ed4{
+    padding:0 196px !important;
+  }
+}
+
+
+
+@media(max-width:768px){
+  
+  .container.jsx-926676e0f5866ed4{
+    padding:0 179px !important;
+  }
+}
+
+
+/* mobile */
+
+@media (max-width:430px) {
+  .main-slider-nav {
+    display: none !important;
+  }
+      .container.jsx-926676e0f5866ed4 {
+        padding: 0 20px !important;
+      }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile */
+
+
+
+
+
+
+
+@media(max-width:430px){
+  .main-menu-wrapper__logo {
+    position: relative;
+    float: left;
+     padding-top: 14px !important;
+      padding-bottom: 22.5px !important;
+    margin-right: 134px;
+}
+
+
+.video-one__video-link {
+  margin-left: 66px !important;
+}
+
+}
+
+
+
+
+
+
+/* one day detilas page css */
+
+@media (max-width: 768px) {
+
+  .container {
+    display: block !important;
+  }
+
+  .leftbasis {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: none !important;
+    box-sizing: border-box !important;
+    min-width: 0 !important;
+    margin-bottom: 30px;
+  }
+}
+
+
+
+/* our fleet css */
+
+@media(max-width: 430px){
+  .ourflete-heading{
+    font-size: 40px !important;
+  }
+  .texi-heading{
+    font-weight: 700 !important;
+    font-size: 30px !important;
+  }
+
+
+
+.page-header__top-inner h2 {
+  bottom: -71px !important;
+  font-size: 28px !important;
+}
+
+
+}
+
+.breadcrumb-link{
+  color:blue !important;
+}
+
+
+@media(max-width: 1024px) {
+ .page-header__top-inner a{
+      left: 41% !important;
+
+ }
+}
+
+@media(max-width: 769px) {
+ .page-header__top-inner a{
+      left: 38% !important;
+
+ }
+}
+
+
+@media(max-width: 430px) {
+ .page-header__top-inner a{
+      left: 30% !important;
+
+ }
+
+ .about-page {
+  padding:48px 0 120px !important;
+ }
+
+ .about-page__right{
+  padding-left: 15px !important;
+ }
+
+ .information{
+  padding: 0 0 10px !important;
+ }
+ .contact-page {
+  padding: 50px 0 60px !important;
+ }
+
+ .contact-page-google-map__one {
+  height: 237px !important;
+ }
 }

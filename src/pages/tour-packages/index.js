@@ -6,7 +6,7 @@ import Layout from "@/components/Layout/Layout";
 const TourPackagesPage = () => {
   return (
     <Layout>
-      <section style={{ padding: "80px 0" }}>
+      <section style={{ padding: "60px 0", backgroundColor: "rgb(247, 245, 242)" }}>
         <div className="container">
           <div className="section-title text-center">
             <span className="section-title__tagline">Explore Rajasthan</span>

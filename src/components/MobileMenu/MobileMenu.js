@@ -31,7 +31,7 @@ const MobileMenu = () => {
         <div className="logo-box">
           <Link href="/">
             <a aria-label="logo image">
-              <Image src={logo.src} width={155} alt="" />
+              <Image src={logo.src} width={70} alt="" />
             </a>
           </Link>
         </div>
@@ -46,11 +46,11 @@ const MobileMenu = () => {
         <ul className="mobile-nav__contact list-unstyled">
           <li>
             <i className="fa fa-envelope"></i>
-            <a href="mailto:needhelp@packageName__.com">needhelp@tevily.com</a>
+            <a href="mailto:tharvibeholdiays@gmail.com">tharvibeholdiays@gmail.com</a>
           </li>
           <li>
             <i className="fa fa-phone-alt"></i>
-            <a href="tel:666-888-0000">666 888 0000</a>
+            <a href="tel:+91-7413986979">+91 7413986979</a>
           </li>
         </ul>
         <div className="mobile-nav__top">
