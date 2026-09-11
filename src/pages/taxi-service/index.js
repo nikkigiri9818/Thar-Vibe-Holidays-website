@@ -51,7 +51,7 @@ const TaxiServicePage = () => {
             padding: "0 20px",
           }}
         >
-          <h1
+          <h1 className="texi-heading"
             style={{
               color: "#fff",
               fontSize: "38px",
@@ -65,13 +65,13 @@ const TaxiServicePage = () => {
           </h1>
           <div style={{ fontSize: "14px", color: "#eee" }}>
             <Link href="/" passHref>
-              <a
+              <a className="breadcrumb-link"
                 style={{
                   color: "rgb(85, 85, 85)",
                   textDecoration: "none",
                 }}
               >
-                <strong style={{ color: "rgb(85, 85, 85)" }}>Home</strong>
+                Home
               </a>
             </Link>
 

@@ -367,7 +367,7 @@ const WhyChoose = () => {
            MOBILE
         ================================= */
 
-        @media (max-width: 767px) {
+        @media (max-width: 768px) {
 
           .why-choose__container {
             flex-direction: column;

@@ -93,7 +93,7 @@ const Header = ({ pageTitle }) => {
                     <a>
                       <Image
                         src={pageTitle === "Home Two" ? logo2.src : logo.src}
-                        width={180}
+                        width={100}
                         height={60}
                         style={{ objectFit: "contain" }}
                         alt="Thar Vibe Holiday"

@@ -3,7 +3,7 @@ import udaipurImg from "@/images/gallery/udaipurimg.jpg";
 import jodhpurImg from "@/images/gallery/jodhpurimg.jpg";
 import pushkarImg from "@/images/gallery/pushkarimg.jpeg";
 import ranthamboreImg from "@/images/gallery/ranthmbor.jpeg";
-import agraImg from "@/images/gallery/agara.jpeg";
+// import agraImg from "@/images/gallery/agara.jpeg";
 import ajmerImg from "@/images/gallery/ajmer.jpeg";
 import sariskaImg from "@/images/gallery/ajmer.jpeg";
 import khatuSalasarImg from "@/images/gallery/KhatuSalasar.jpeg";
@@ -110,23 +110,23 @@ const oneDayTourData = [
     inclusions: commonInclusions,
     exclusions: commonExclusions,
   },
-  {
-    id: 6,
-    slug: "same-day-agra-tour",
-    image: agraImg,
-    title: "Same Day Agra Tour",
-    tripType: "Full Day",
-    durationLabel: "One Day",
-    tourTimings: "Full Day",
-    visaRequirements: "No",
-    priceLabel: "On Request",
-    overview: commonOverview,
-    itinerary: [
-      { day: 1, title: "Agra Sightseeing", desc: "Visit the iconic Taj Mahal, Agra Fort, and Mehtab Bagh, then return the same day." },
-    ],
-    inclusions: commonInclusions,
-    exclusions: commonExclusions,
-  },
+  // {
+  //   id: 6,
+  //   slug: "same-day-agra-tour",
+  //   // image: agraImg,
+  //   title: "Same Day Agra Tour",
+  //   tripType: "Full Day",
+  //   durationLabel: "One Day",
+  //   tourTimings: "Full Day",
+  //   visaRequirements: "No",
+  //   priceLabel: "On Request",
+  //   overview: commonOverview,
+  //   itinerary: [
+  //     { day: 1, title: "Agra Sightseeing", desc: "Visit the iconic Taj Mahal, Agra Fort, and Mehtab Bagh, then return the same day." },
+  //   ],
+  //   inclusions: commonInclusions,
+  //   exclusions: commonExclusions,
+  // },
   {
     id: 7,
     slug: "same-day-sariska-jaipur-tour",
