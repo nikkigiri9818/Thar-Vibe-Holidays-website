@@ -1,3 +1,5 @@
+
+
 import bg from "@/images/shapes/about-page-testimonial-map.png";
 import shape1 from "@/images/shapes/testimonial-one-shape-2.png";
 import shape2 from "@/images/shapes/testimonial-one-shape-3.png";
@@ -14,7 +16,7 @@ const testimonialOne = {
   testimonials: [
     {
       id: 1,
-      image: "https://randomuser.me/api/portraits/men/32.jpg",
+      image: "https://images.pexels.com/photos/36041239/pexels-photo-36041239.jpeg",
       review: 5,
       description:
         "Our Rajasthan trip was beautifully planned. The hotels, sightseeing and travel arrangements were all smooth and comfortable. Highly recommended!",
@@ -62,7 +64,7 @@ const testimonialOne = {
 
     {
       id: 5,
-      image: "https://randomuser.me/api/portraits/men/75.jpg",
+      image: "https://randomuser.me/api/portraits/men/46.jpg",
       review: 5,
       description:
         "Excellent service and great support. The driver was polite, hotels were comfortable and all sightseeing arrangements were perfect.",
@@ -74,7 +76,7 @@ const testimonialOne = {
 
     {
       id: 6,
-      image: "https://randomuser.me/api/portraits/women/68.jpg",
+      image: "https://randomuser.me/api/portraits/women/49.jpg",
       review: 5,
       description:
         "One of the best travel experiences we have had. The team understood exactly what we wanted and planned everything perfectly.",
@@ -86,7 +88,7 @@ const testimonialOne = {
 
     {
       id: 7,
-      image: "https://randomuser.me/api/portraits/men/52.jpg",
+      image: "https://images.pexels.com/photos/12661575/pexels-photo-12661575.jpeg",
       review: 5,
       description:
         "The Rajasthan heritage tour was fantastic. Every destination was covered properly and we had enough time to enjoy each place.",
@@ -98,7 +100,7 @@ const testimonialOne = {
 
     {
       id: 8,
-      image: "https://randomuser.me/api/portraits/women/49.jpg",
+      image: "https://randomuser.me/api/portraits/women/68.jpg",
       review: 5,
       description:
         "Very professional and friendly service. The complete trip was hassle-free and we made some beautiful memories with our family.",
@@ -110,7 +112,7 @@ const testimonialOne = {
 
     {
       id: 9,
-      image: "https://randomuser.me/api/portraits/men/85.jpg",
+      image: "https://images.pexels.com/photos/6102858/pexels-photo-6102858.jpeg",
       review: 5,
       description:
         "Great value for money and excellent planning. I would definitely book my next Rajasthan trip with this team again.",

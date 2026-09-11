@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import oneDayTourData from "@/data/oneDayTourData";
 import Layout from "@/components/Layout/Layout";
+import ThingsToDo from "@/components/ThingsToDo/ThingsToDo";
 
 export const getStaticPaths = () => {
   const paths = oneDayTourData.map((tour) => ({ params: { slug: tour.slug } }));
@@ -274,9 +275,10 @@ const TourDetailPage = ({ tour }) => {
         </div>
       </div>
 
-      <div style={{ background: "#f7f5f2", padding: "50px 0", textAlign: "center" }}>
+      {/* <div style={{ background: "#f7f5f2", padding: "50px 0", textAlign: "center" }}>
         <h2 style={{ margin: 0, fontSize: "24px", color: "#2b2b2b" }}>Things to do in Rajasthan</h2>
-      </div>
+      </div> */}
+      <ThingsToDo/>
     </Layout>
   );
 };
