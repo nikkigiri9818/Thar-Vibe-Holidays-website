@@ -14,77 +14,25 @@ a {
   box-sizing: border-box;
 }
 
+/* =========================================
+   NEW CSS
+========================================= */
 
-
-
-
-/* new css add */
-.destinations-one__title a{
-  color:white!important;
+.destinations-one__title a {
+  color: white !important;
 }
 
 /* a{
   color: white !important;
 } */
 
-.about-one__discount h3{
-  color:white!important;
+.about-one__discount h3 {
+  color: white !important;
 }
 
-@media (max-width: 1024px) {
-  .main-menu-wrapper__logo{
-        margin-right: 643px !important;
-         padding-top: 14px !important;
-      padding-bottom: 22.5px !important;
-
-  }
-.container{
-  flex-wrap: nowrap !important;
-}
-
-
-}
-
-@media (max-width: 768px) {
- .main-menu-wrapper__right a{
-  display: none !important;
- }
-.container{
-  flex-wrap: wrap !important;
-  padding-right: 20px !important;
-}
-
-
-.leftbasis {
-  flex: none !important;
-}
-}
-
-
-@media (max-width: 768px) {
- .main-menu-wrapper__logo{
-      margin-right: 477px !important;
-      padding-top: 14px !important;
-      padding-bottom: 22.5px !important;
- }
-}
-
-@media (max-width: 430px) {
- .main-menu-wrapper__logo{
-      margin-right: 0 !important;
- }
-}
-
-
-
-/* @media((min-width: 1200px)){
-.clearfix{
-  max-width: 1400px !important;
-  margin: auto;
-  
-}
-} */
-
+/* =========================================
+   HEADER
+========================================= */
 
 .main-header {
   width: 100% !important;
@@ -112,7 +60,9 @@ a {
   margin-right: auto !important;
 }
 
-
+.main-header__top-left {
+  margin-left: 81px !important;
+}
 
 .icon {
   position: static !important;
@@ -128,37 +78,13 @@ li {
   display: flex !important;
 }
 
-.main-header__top-left {
-  margin-left: 81px !important;
-}
-
-
-/* fotter */
-
-@media (max-width: 430px) {
-  .site-footer__bottom {
-    display: none !important;
-  }
-  .site-footer__top-inner{
-    padding-bottom: 50px !important;
-    padding-top: 50px !important;
-  }
-}
-
-
-/* footer */
-
-
-
-
-
-
-
-
-
+/* =========================================
+   STICKY HEADER
+========================================= */
 
 /* Scroll ke baad sticky header */
 /* Sticky header full screen */
+
 .stricky-header.stricked-menu.stricky-fixed {
   width: 100% !important;
   max-width: none !important;
@@ -169,6 +95,7 @@ li {
 }
 
 /* Header ke andar ka content */
+
 .stricky-header.stricked-menu.stricky-fixed .main-menu-wrapper {
   width: 100%;
 }
@@ -180,7 +107,9 @@ li {
   margin: 0 auto !important;
 }
 
-/* fleet */
+/* =========================================
+   FLEET
+========================================= */
 
 /* .myitem {
   padding: 22px 10px !important;
@@ -190,7 +119,6 @@ li {
   background: blue !important;
   color: #ffff !important;
 } */
-
 
 .my-item {
   position: relative;
@@ -220,162 +148,147 @@ li {
   width: 70%;
 }
 
-.page-header__top{
+/* =========================================
+   PAGE HEADER
+========================================= */
+
+.page-header__top {
   padding: 161px 0 !important;
 }
 
-
 .page-header__top-inner h2 {
-    font-size: 40px;
-    color: var(--thm-base);
-    font-weight: 700;
-    line-height: 50px;
-    letter-spacing: var(--thm-letter-spacing);
-    position: absolute;
-    left: 50%;
-    bottom: -75px;
+  font-size: 40px;
+  color: var(--thm-base);
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: var(--thm-letter-spacing);
+  position: absolute;
+  left: 50%;
+  bottom: -75px;
 }
-
-
 
 .page-header__top-inner a {
-    
-    color: var(--thm-base);
-    
-    line-height: 50px;
-    letter-spacing: var(--thm-letter-spacing);   
-     position: absolute;
-    left: 43%;
-    bottom: -75px;
+  color: var(--thm-base);
+  line-height: 50px;
+  letter-spacing: var(--thm-letter-spacing);
+  position: absolute;
+  left: 43%;
+  bottom: -75px;
 }
 
-page-header__top-inner p{
-    
-    color: var(--thm-base);
-    
-    line-height: 50px;
-    letter-spacing: var(--thm-letter-spacing);    
-    position: absolute;
-    left: 42%;
-    bottom: -75px;
+page-header__top-inner p {
+  color: var(--thm-base);
+  line-height: 50px;
+  letter-spacing: var(--thm-letter-spacing);
+  position: absolute;
+  left: 42%;
+  bottom: -75px;
 }
 
+.breadcrumb-link {
+  color: blue !important;
+}
+
+/* =========================================
+   ABOUT
+========================================= */
 
 .about-page__text-1 {
-    font-size: 16px !important;
-    font-weight: 700;
-   
-    line-height: 27px !important;
-    letter-spacing: var(--thm-letter-spacing);
-    margin: 0;
-    padding-bottom: 24px;
+  font-size: 16px !important;
+  font-weight: 700;
+  line-height: 27px !important;
+  letter-spacing: var(--thm-letter-spacing);
+  margin: 0;
+  padding-bottom: 24px;
 }
 
+/* =========================================
+   FOOTER
+========================================= */
+
+/* fotter */
+
+/* footer */
 
 
+/* =========================================
+   VIDEO
+========================================= */
 
+/* =========================================
+   WHY CHOOSE
+========================================= */
 
+/* =========================================
+   TODAY ADD CSS FOR RESPONSIVE
+========================================= */
 
-
-
-@media(max-width:500px){
-.video-one__icon-box {
-    margin-bottom: 15px;
-    margin-left:65px !important;
-    margin-right: 82px !important;
+@media (max-width: 1440px) {
+  .container.jsx-926676e0f5866ed4 {
+    padding: 0 120px !important;
+  }
 }
+
+/* =========================================
+   RESPONSIVE - 1024px
+========================================= */
+
+@media (max-width: 1024px) {
+
+  .main-menu-wrapper__logo {
+    margin-right: 643px !important;
+    padding-top: 14px !important;
+    padding-bottom: 22.5px !important;
+  }
+
+  .container {
+    flex-wrap: nowrap !important;
+  }
+
+  .container.jsx-926676e0f5866ed4 {
+    padding: 0 196px !important;
+  }
+
+  .page-header__top-inner a {
+    left: 41% !important;
+  }
 }
+
+/* =========================================
+   RESPONSIVE - 768px
+========================================= */
 
 @media (max-width: 768px) {
-    .why-choose__container.jsx-452fc93955813f9c {
-        
-        flex-direction: column;
-        width: 100% !important;
-    }
-}
 
-
-/* today add css for responsive */
-
-@media(max-width:1440px){
- 
-  .container.jsx-926676e0f5866ed4{
-    padding:0 120px !important;
-  }
-}
-
-@media(max-width:1024px){
-  
-  .container.jsx-926676e0f5866ed4{
-    padding:0 196px !important;
-  }
-}
-
-
-
-@media(max-width:768px){
-  
-  .container.jsx-926676e0f5866ed4{
-    padding:0 179px !important;
-  }
-}
-
-
-/* mobile */
-
-@media (max-width:430px) {
-  .main-slider-nav {
+  .main-menu-wrapper__right a {
     display: none !important;
   }
-      .container.jsx-926676e0f5866ed4 {
-        padding: 0 20px !important;
-      }
 
-}
+  .container {
+    flex-wrap: wrap !important;
+    padding-right: 20px !important;
+  }
 
+  .leftbasis {
+    flex: none !important;
+  }
 
-
-
-
-
-
-
-
-
-
-
-/* mobile */
-
-
-
-
-
-
-
-@media(max-width:430px){
   .main-menu-wrapper__logo {
-    position: relative;
-    float: left;
-     padding-top: 14px !important;
-      padding-bottom: 22.5px !important;
-    margin-right: 134px;
-}
+    margin-right: 477px !important;
+    padding-top: 14px !important;
+    padding-bottom: 22.5px !important;
+  }
 
+  .why-choose__container.jsx-452fc93955813f9c {
+    flex-direction: column;
+    width: 100% !important;
+  }
 
-.video-one__video-link {
-  margin-left: 66px !important;
-}
+  .container.jsx-926676e0f5866ed4 {
+    padding: 0 179px !important;
+  }
 
-}
-
-
-
-
-
-
-/* one day detilas page css */
-
-@media (max-width: 768px) {
+  /* one day details page css */
 
   .container {
     display: block !important;
@@ -391,71 +304,133 @@ page-header__top-inner p{
   }
 }
 
+/* =========================================
+   RESPONSIVE - 769px
+========================================= */
 
+@media (max-width: 769px) {
 
-/* our fleet css */
+  .page-header__top-inner a {
+    left: 38% !important;
+  }
+}
 
-@media(max-width: 430px){
-  .ourflete-heading{
+/* =========================================
+   RESPONSIVE - 500px
+========================================= */
+
+@media (max-width: 500px) {
+
+  .video-one__icon-box {
+    margin-bottom: 15px;
+    margin-left: 65px !important;
+    margin-right: 82px !important;
+  }
+}
+
+/* =========================================
+   RESPONSIVE - 430px
+========================================= */
+
+@media (max-width: 430px) {
+
+  /* Header */
+
+  .main-menu-wrapper__logo {
+    position: relative;
+    float: left;
+    padding-top: 14px !important;
+    padding-bottom: 22.5px !important;
+    margin-right: 134px;
+  }
+
+  .main-menu-wrapper__logo {
+    margin-right: 0 !important;
+  }
+
+  /* Main Slider */
+
+  .main-slider-nav {
+    display: none !important;
+  }
+
+  .container.jsx-926676e0f5866ed4 {
+    padding: 0 20px !important;
+  }
+
+  /* Footer */
+
+  .site-footer__bottom {
+    display: none !important;
+  }
+
+  .site-footer__top-inner {
+    padding-bottom: 50px !important;
+    padding-top: 50px !important;
+  }
+
+  /* Video */
+
+  .video-one__video-link {
+    margin-left: 66px !important;
+  }
+
+  /* Our Fleet */
+
+  .ourflete-heading {
     font-size: 40px !important;
   }
-  .texi-heading{
+
+  .texi-heading {
     font-weight: 700 !important;
     font-size: 30px !important;
   }
 
+  /* Page Header */
 
+  .page-header__top-inner h2 {
+    bottom: -71px !important;
+    font-size: 28px !important;
+  }
 
-.page-header__top-inner h2 {
-  bottom: -71px !important;
-  font-size: 28px !important;
+  .page-header__top-inner a {
+    left: 30% !important;
+  }
+
+  /* About */
+
+  .about-page {
+    padding: 48px 0 120px !important;
+  }
+
+  .about-page__right {
+    padding-left: 15px !important;
+  }
+
+  /* Information */
+
+  .information {
+    padding: 0 0 10px !important;
+  }
+
+  /* Contact */
+
+  .contact-page {
+    padding: 50px 0 60px !important;
+  }
+
+  .contact-page-google-map__one {
+    height: 237px !important;
+  }
 }
 
+/* =========================================
+   VERY SMALL MOBILE - 375px
+========================================= */
 
-}
+@media (max-width: 375px) {
 
-.breadcrumb-link{
-  color:blue !important;
-}
-
-
-@media(max-width: 1024px) {
- .page-header__top-inner a{
-      left: 41% !important;
-
- }
-}
-
-@media(max-width: 769px) {
- .page-header__top-inner a{
-      left: 38% !important;
-
- }
-}
-
-
-@media(max-width: 430px) {
- .page-header__top-inner a{
-      left: 30% !important;
-
- }
-
- .about-page {
-  padding:48px 0 120px !important;
- }
-
- .about-page__right{
-  padding-left: 15px !important;
- }
-
- .information{
-  padding: 0 0 10px !important;
- }
- .contact-page {
-  padding: 50px 0 60px !important;
- }
-
- .contact-page-google-map__one {
-  height: 237px !important;
- }
+  .main-menu-wrapper__logo {
+    margin-right: 0 !important;
+  }
 }
