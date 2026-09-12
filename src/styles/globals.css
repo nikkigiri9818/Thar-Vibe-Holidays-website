@@ -438,3 +438,14 @@ page-header__top-inner p {
     margin-right: 0 !important;
   }
 }
+
+
+
+
+.testimonail-one__content {
+  height: 412px !important;
+}
+
+:hover .hoverchange a{
+  color: #ffff;
+}

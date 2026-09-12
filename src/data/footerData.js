@@ -96,16 +96,16 @@ const footerData = {
   companies: [
     { id: 1, link: "/", title: "Home" },
     { id: 2, link: "/about-us", title: "About Us" },
-    { id: 3, link: "/contact-us", title: "Contact Us" },
+    { id: 3, link: "/contact", title: "Contact Us" },
     { id: 4, link: "/our-fleet", title: "Our Fleet" },
-    { id: 5, link: "#", title: "Blog" },
+    { id: 5, link: "/taxi-service", title: "Taxi Service" },
   ],
   explore: [
-    { id: 1, link: "/one-day-tour/jaipur-to-sariska-one-day-tour", title: "Jaipur to Sariska" },
-    { id: 2, link: "/bus-service/bus-hire-for-wedding", title: "Bus Hire For Wedding" },
-    { id: 3, link: "/tour/jaipur-to-ajmer-pushkar-same-day-tour", title: "Jaipur To Jaisalmer, Pushkar" },
+    { id: 1, link: "/taxi-service", title: "Jaipur to Sariska" },
+    { id: 2, link: "/taxi-service", title: "Bus Hire For Wedding" },
+    { id: 3, link: "/taxi-service", title: "Jaipur To Jaisalmer, Pushkar" },
     // { id: 4, link: "/one-day-tour/day-trip-to-agra-by-bus", title: "Day Trip To Agra" },
-    { id: 5, link: "/bus-service/luxury-bus-rental-in-rajasthan", title: "Luxury Bus Rental In Rajasthan" },
+    { id: 5, link: "/taxi-service", title: "Luxury Bus Rental In Rajasthan" },
   ],
 };
 

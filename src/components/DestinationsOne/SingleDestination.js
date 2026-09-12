@@ -157,7 +157,7 @@ const DestinationCard = ({ destination }) => {
         )}
 
         {/* TITLE */}
-        <h2
+        <h2 className="hoverchange"
           style={{
             margin: 0,
             padding: 0,
