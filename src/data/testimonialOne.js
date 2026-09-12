@@ -1,5 +1,3 @@
-
-
 import bg from "@/images/shapes/about-page-testimonial-map.png";
 import shape1 from "@/images/shapes/testimonial-one-shape-2.png";
 import shape2 from "@/images/shapes/testimonial-one-shape-3.png";
@@ -21,7 +19,7 @@ const testimonialOne = {
       description:
         "Our Rajasthan trip was beautifully planned. The hotels, sightseeing and travel arrangements were all smooth and comfortable. Highly recommended!",
       client: {
-        name: "Aarav Sharma",
+        name: "Arti Sharma",
         role: "Traveler",
       },
     },
@@ -33,7 +31,7 @@ const testimonialOne = {
       description:
         "Amazing experience! Everything was well organised and the team was always available whenever we needed assistance during our journey.",
       client: {
-        name: "Priya Verma",
+        name: "Sophia Williams",
         role: "Customer",
       },
     },
@@ -45,7 +43,7 @@ const testimonialOne = {
       description:
         "We had a wonderful family vacation. The itinerary was perfectly customised according to our requirements and budget.",
       client: {
-        name: "Rohan Mehta",
+        name: "James Anderson",
         role: "Family Traveler",
       },
     },
@@ -57,7 +55,7 @@ const testimonialOne = {
       description:
         "From booking to the final day of the trip, everything was handled professionally. Rajasthan was an unforgettable experience.",
       client: {
-        name: "Ananya Gupta",
+        name: "Emily Johnson",
         role: "Traveler",
       },
     },
@@ -69,7 +67,7 @@ const testimonialOne = {
       description:
         "Excellent service and great support. The driver was polite, hotels were comfortable and all sightseeing arrangements were perfect.",
       client: {
-        name: "Vikram Singh",
+        name: "Michael Brown",
         role: "Customer",
       },
     },
@@ -81,7 +79,7 @@ const testimonialOne = {
       description:
         "One of the best travel experiences we have had. The team understood exactly what we wanted and planned everything perfectly.",
       client: {
-        name: "Neha Kapoor",
+        name: "Olivia Davis",
         role: "Traveler",
       },
     },
@@ -93,7 +91,7 @@ const testimonialOne = {
       description:
         "The Rajasthan heritage tour was fantastic. Every destination was covered properly and we had enough time to enjoy each place.",
       client: {
-        name: "Aditya Joshi",
+        name: "Daniel Wilson",
         role: "Travel Enthusiast",
       },
     },
@@ -105,7 +103,7 @@ const testimonialOne = {
       description:
         "Very professional and friendly service. The complete trip was hassle-free and we made some beautiful memories with our family.",
       client: {
-        name: "Kavya Patel",
+        name: "Charlotte Miller",
         role: "Customer",
       },
     },
@@ -117,7 +115,7 @@ const testimonialOne = {
       description:
         "Great value for money and excellent planning. I would definitely book my next Rajasthan trip with this team again.",
       client: {
-        name: "Arjun Malhotra",
+        name: "William Taylor",
         role: "Traveler",
       },
     },
